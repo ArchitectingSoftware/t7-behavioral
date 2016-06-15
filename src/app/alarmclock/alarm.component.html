@@ -1,0 +1,41 @@
+<div class="container">
+  <h2>My Alarm Clock</h2>
+  <p style="text-align:left"> The following are the alarms that you currently have set:</p>
+  <table class="table table-hover">
+    <thead>
+    <tr>
+      <th class="text-center">Alarm Time</th>
+      <th class="text-center">Frequency</th>
+      <th class="text-center">Enabled</th>
+      <th class="text-center">Edit</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>5:45 AM</td>
+      <td>Daily</td>
+      <td>True</td>
+      <td>Edit Buttons Here</td>
+    </tr>
+    <tr>
+      <td>6:00 AM</td>
+      <td>Daily</td>
+      <td>True</td>
+      <td>Edit Buttons Here</td>
+    </tr>
+    <tr>
+      <td>7:00 AM</td>
+      <td>Saturday</td>
+      <td>True</td>
+      <td>Edit Buttons Here</td>
+    </tr>
+    <tr>
+      <td>9:00 AM</td>
+      <td>Weekends</td>
+      <td>False</td>
+      <td>Edit Buttons Here</td>
+    </tr>
+    </tbody>
+  </table>
+  <button (click)="onAddNewAlarm()" class="btn btn-primary pull-left"><span class="glyphicon glyphicon-plus"></span> Add New Alarm</button>
+</div>
